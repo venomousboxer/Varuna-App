@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "219321577024",
+    "firebase_url": "https://varuna-cde75.firebaseio.com",
+    "project_id": "varuna-cde75",
+    "storage_bucket": "varuna-cde75.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219321577024:android:717ab7cd9a2052579879a5",
+        "android_client_info": {
+          "package_name": "com.example.venomousboxer.varunaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "219321577024-c9db4t7cg8dvslte4j8guf1qosmiof9r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.venomousboxer.varunaapp",
+            "certificate_hash": "60fd96b869814e02bb2b887ed83b81df422ac2ee"
+          }
+        },
+        {
+          "client_id": "219321577024-fovq0p64q7mmgq49n8g7nei333fh3nqg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBL0vgf1dXgtbGUYwUm068tgpS4r6Lovtg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "219321577024-fovq0p64q7mmgq49n8g7nei333fh3nqg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

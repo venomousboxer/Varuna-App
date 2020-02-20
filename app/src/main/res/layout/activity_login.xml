@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:background="@color/transparent"
+            android:id="@+id/inputLayoutEmailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="30sp"
+            android:hint="Email"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
+            android:textAlignment="center">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:background="@color/transparent"
+                android:imeOptions="actionNext"
+                android:id="@+id/inputEditTextEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:background="@color/transparent"
+            android:id="@+id/inputLayoutPasswordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="40sp"
+            android:layout_marginRight="30sp"
+            android:hint="Password"
+            android:paddingStart="20sp"
+            android:paddingEnd="20sp"
+            android:textAlignment="center">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:background="@color/transparent"
+                android:imeOptions="actionDone"
+                android:id="@+id/inputEditTextPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textWebPassword" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:onClick="signIn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40sp"
+            android:paddingRight="40sp"
+            android:paddingLeft="40sp"/>
+
+        <View
+            android:background="@color/design_default_color_primary"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="70sp"
+            android:layout_marginRight="70sp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:onClick="signUn"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20sp"
+            android:paddingRight="40sp"
+            android:paddingLeft="40sp"
+            android:layout_marginBottom="10sp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
